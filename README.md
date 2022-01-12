@@ -3,3 +3,8 @@ Podify is a simple Docker clone written in Rust. It is part of a school assignme
 
 ## Example
 [![Example video](https://img.youtube.com/vi/TY6LngDj4nQ/0.jpg)](https://www.youtube.com/watch?v=TY6LngDj4nQ)
+
+## Running
+Simply run `setup.sh`. After which you can run the following commands:
+- Run `sudo ./target/debug/podify sh` to start a shell in the pod
+- Run `sudo ./target/debug/podify /test` to run the test program
